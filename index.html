@@ -9,11 +9,21 @@
 </head>
 <body>
     <header >
-        <button class="hambuger">=</button>
+        <button class="hambuger">
+            <img class="humburger-logo" src="images/humbugerLogo.PNG" alt="humburger Logo">
+        </button>
         <img class="header-logo" src="images/dribbleLogo.PNG" alt="Dribble logo">
-         <form action="">
-            <input class="search-input" type="search" placeholder="What are you looking for?"><button class="search-button" type="submit">v</button>
-         </form>
+        <form action="">
+            <div class="input-wrapper">
+                <input class="search-input" type="search" placeholder="What are you looking for?">
+                <button class="search-button" type="submit">
+                <img class="search-logo" src="icon-svg/icons8-search.svg" alt="">
+                </button>
+                <a class="shots-link">Shots
+                <img class="down-arrow" src="icon-svg/icons8-arrow-60new.png" alt="">
+                </a>
+            </div>
+        </form>
         
         <nav class="navbar">
             <ul>
@@ -24,7 +34,6 @@
                 <button>Sign Up</button>
                 <button>Log In</button>
             </ul>
-           
         </nav>
     </header>
 </body>
